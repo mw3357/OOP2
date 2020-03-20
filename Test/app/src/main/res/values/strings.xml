@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="add">ADD ANOTHER PERSON</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="submit">Submit</string>
+    <string name="check_alive">Still Alive?</string>
+</resources>
