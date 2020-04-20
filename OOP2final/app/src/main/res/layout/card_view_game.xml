@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <ImageView
+            android:id="@+id/game_image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/ic_launcher_background" />
+        <TextView
+            android:id="@+id/game_name_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/game_image_view"
+            android:text="Darksiders: Genesis"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/game_platform_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_name_view"
+            android:layout_toRightOf="@+id/game_image_view"
+            android:text="PS4, XB1, PC"
+            />
+        <TextView
+            android:id="@+id/game_genre_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_platform_view"
+            android:layout_toRightOf="@+id/game_image_view"
+            android:text="Action"
+            />
+        <TextView
+            android:id="@+id/game_releaseDate_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_genre_view"
+            android:layout_toRightOf="@+id/game_image_view"
+            android:text="2.14.2020"
+            />
+        <TextView
+            android:id="@+id/game_studio_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/game_releaseDate_view"
+            android:layout_toRightOf="@+id/game_image_view"
+            android:text="THQ Nordic"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
