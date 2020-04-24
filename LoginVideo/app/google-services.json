@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1044463164415",
+    "firebase_url": "https://loginvideo-c1d2f.firebaseio.com",
+    "project_id": "loginvideo-c1d2f",
+    "storage_bucket": "loginvideo-c1d2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044463164415:android:a97fad72c95cf28d26a5ca",
+        "android_client_info": {
+          "package_name": "com.example.loginvideo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044463164415-0hsta8r5apkn4t0gpg38j76nma2aif9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginvideo",
+            "certificate_hash": "bf6187a9023dfc2a5f87817ba372e552b4daaa2a"
+          }
+        },
+        {
+          "client_id": "1044463164415-5mllivl2uek74ec2pmu96jf4aio2956j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqWgEmM4Ps3UHgEDRQg5it3aO3MkzbWu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044463164415-5mllivl2uek74ec2pmu96jf4aio2956j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
